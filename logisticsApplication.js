@@ -22,7 +22,7 @@ class Vehicle {
 }
 
 //create three vehicle objects for the Vehicle class and pass the values to constructor().
-let car = new Vehicle("Car", "Toyata", "Rav4", 2023);
+let car = new Vehicle("Car", "Toyota", "Rav4", 2023);
 let truck = new Vehicle("Truck", "Ford", "Ford Ranger", 2000, 25);
 let motorcycle = new Vehicle("Motorcycle", "Honda", "Gold Wing", 2017, 14);
 
@@ -40,6 +40,6 @@ console.log(motorcycle.getDetails());
 Mileage of Car: 23
 Mileage of Truck: 75
 Mileage of Motorcycle: 44
-This vehicle is Car. It is a Toyata Rav4 made in 2023, and it mileage is 0.
-This vehicle is Truck. It is a Ford Ford Ranger made in 2000, and it mileage is 25.
-This vehicle is Motorcycle. It is a Honda Gold Wing made in 2017, and it mileage is 14. */
+This vehicle is Car. It is a Toyota Rav4 made in 2023, and it mileage is 23 miles.
+This vehicle is Truck. It is a Ford Ford Ranger made in 2000, and it mileage is 75 miles.
+This vehicle is Motorcycle. It is a Honda Gold Wing made in 2017, and it mileage is 44 miles. */
