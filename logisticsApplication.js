@@ -12,12 +12,12 @@ class Vehicle {
     }
 // Increases the vehicle’s mileage by the given distance in miles using the drive().
     drive(distance){
-        return this.mileage += distance;
+        return this.mileage += distance;    
     }
 
 // Returns a formatted string describing the vehicle’s details using getDetails().
     getDetails(){
-        return `This vehicle is ${this.type}. It is a ${this.make} ${this.model} made in ${this.year}, and it mileage is ${this.mileage} miles.` ;
+        return `This vehicle is ${this.type}. It is a ${this.make} ${this.model} made in ${this.year}, and its mileage is ${this.mileage} miles.` ;
     }
 }
 
@@ -40,6 +40,6 @@ console.log(motorcycle.getDetails());
 Mileage of Car: 23
 Mileage of Truck: 75
 Mileage of Motorcycle: 44
-This vehicle is Car. It is a Toyota Rav4 made in 2023, and it mileage is 23 miles.
-This vehicle is Truck. It is a Ford Ford Ranger made in 2000, and it mileage is 75 miles.
-This vehicle is Motorcycle. It is a Honda Gold Wing made in 2017, and it mileage is 44 miles. */
+This vehicle is Car. It is a Toyota Rav4 made in 2023, and its mileage is 23 miles.
+This vehicle is Truck. It is a Ford Ford Ranger made in 2000, and its mileage is 75 miles.
+This vehicle is Motorcycle. It is a Honda Gold Wing made in 2017, and its mileage is 44 miles. */
